@@ -4,6 +4,6 @@ This project is under construction and is a continuation on the original FGIndia
 # Credits :- 
 Terrain - Jonthan Redpath (legoboyvdlp)
 
-Models & Textures - Ebrahim Basha (TheRealAce), Atharv Garg (Atharv Garg), Manu Bhas (MikeAlphaNovember)
+Models & Textures - Ebrahim Basha (TheRealAce), Atharv Garg (MarkVI2), Manu Bhas (MikeAlphaNovember)
 
-AI - Atharv Garg (Atharv Garg)
+AI - Atharv Garg (MarkVI2)
