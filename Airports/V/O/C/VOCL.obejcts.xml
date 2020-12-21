@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <models>
+    <model>
+      <legend type="string"></legend>
+      <latitude-deg type="double">11.14064479</latitude-deg>
+      <longitude-deg type="double">75.95030003</longitude-deg>
+      <elevation-ft type="double">101.6931</elevation-ft>
+    </model>
+  </models>
+</PropertyList>
