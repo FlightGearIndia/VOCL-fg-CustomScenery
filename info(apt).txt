@@ -1,0 +1,3 @@
+This folder contains the scenery for VOCL
+
+There are no copyright infringements and every model in this scenery will be released under GNU public license. If you feel to contact us, please write to us on discord - ( https://discord.gg/5b4uTJKFB3 )  
