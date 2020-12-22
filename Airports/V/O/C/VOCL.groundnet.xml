@@ -11,20 +11,20 @@
     <TOWER>12335</TOWER>
   </frequencies>
   <parkingList>
-    <Parking index="1" type="gate" name="1" lat="N11 8.396" lon="E75 56.928" heading="10.5" radius="18" number="undefined" pushBackRoute="15"/>
-    <Parking index="2" type="gate" name="2" lat="N11 8.391" lon="E75 56.949" heading="10.5" radius="18" number="undefined"/>
-    <Parking index="3" type="gate" name="3" lat="N11 8.388" lon="E75 56.974" heading="10.5" radius="18" number="undefined"/>
-    <Parking index="4" type="gate" name="4" lat="N11 8.384" lon="E75 56.995" heading="10.5" radius="18" number="undefined"/>
-    <Parking index="5" type="gate" name="5" lat="N11 8.381" lon="E75 57.014" heading="10.5" radius="18" number="undefined" pushBackRoute="23"/>
-    <Parking index="6" type="gate" name="5A" lat="N11 8.377" lon="E75 57.03" heading="10.5" radius="18" number="undefined" pushBackRoute="24"/>
-    <Parking index="7" type="gate" name="6" lat="N11 8.373" lon="E75 57.051" heading="11.0" radius="18" number="undefined" pushBackRoute="25"/>
-    <Parking index="8" type="gate" name="7" lat="N11 8.369" lon="E75 57.072" heading="12.6" radius="18" number="undefined" pushBackRoute="26"/>
-    <Parking index="9" type="gate" name="8" lat="N11 8.364" lon="E75 57.093" heading="13.4" radius="18" number="undefined" pushBackRoute="27"/>
-    <Parking index="10" type="gate" name="9" lat="N11 8.36" lon="E75 57.113" heading="12.1" radius="18" number="undefined" pushBackRoute="28"/>
-    <Parking index="11" type="gate" name="10" lat="N11 8.356" lon="E75 57.134" heading="10.5" radius="18" number="undefined"/>
-    <Parking index="12" type="gate" name="11" lat="N11 8.353" lon="E75 57.152" heading="10.3" radius="14" number="undefined" pushBackRoute="30"/>
-    <Parking index="13" type="gate" name="12" lat="N11 8.35" lon="E75 57.168" heading="10.5" radius="14" number="undefined" pushBackRoute="31"/>
-    <Parking index="14" type="gate" name="13" lat="N11 8.348" lon="E75 57.185" heading="10.5" radius="14" number="undefined" pushBackRoute="32"/>
+    <Parking index="1" type="gate" name="1" lat="N11 8.396" lon="E75 56.928" heading="10.5" radius="18"  pushBackRoute="15"/>
+    <Parking index="2" type="gate" name="2" lat="N11 8.391" lon="E75 56.949" heading="10.5" radius="18"/>
+    <Parking index="3" type="gate" name="3" lat="N11 8.388" lon="E75 56.974" heading="10.5" radius="18" />
+    <Parking index="4" type="gate" name="4" lat="N11 8.384" lon="E75 56.995" heading="10.5" radius="18" />
+    <Parking index="5" type="gate" name="5" lat="N11 8.381" lon="E75 57.014" heading="10.5" radius="18" pushBackRoute="23"/>
+    <Parking index="6" type="gate" name="5A" lat="N11 8.377" lon="E75 57.03" heading="10.5" radius="18" pushBackRoute="24"/>
+    <Parking index="7" type="gate" name="6" lat="N11 8.373" lon="E75 57.051" heading="11.0" radius="18" pushBackRoute="25"/>
+    <Parking index="8" type="gate" name="7" lat="N11 8.369" lon="E75 57.072" heading="12.6" radius="18" pushBackRoute="26"/>
+    <Parking index="9" type="gate" name="8" lat="N11 8.364" lon="E75 57.093" heading="13.4" radius="18" pushBackRoute="27"/>
+    <Parking index="10" type="gate" name="9" lat="N11 8.36" lon="E75 57.113" heading="12.1" radius="18" pushBackRoute="28"/>
+    <Parking index="11" type="gate" name="10" lat="N11 8.356" lon="E75 57.134" heading="10.5" radius="18" />
+    <Parking index="12" type="gate" name="11" lat="N11 8.353" lon="E75 57.152" heading="10.3" radius="14" pushBackRoute="30"/>
+    <Parking index="13" type="gate" name="12" lat="N11 8.35" lon="E75 57.168" heading="10.5" radius="14" pushBackRoute="31"/>
+    <Parking index="14" type="gate" name="13" lat="N11 8.348" lon="E75 57.185" heading="10.5" radius="14" pushBackRoute="32"/>
   </parkingList>
   <TaxiNodes>
     <node index="15" lat="N11 8.365" lon="E75 56.923" isOnRunway="0" holdPointType="PushBack"/>
