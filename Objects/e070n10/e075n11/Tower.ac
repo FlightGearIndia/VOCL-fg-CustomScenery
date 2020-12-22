@@ -17,7 +17,7 @@ MATERIAL "__auto_11" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.
 MATERIAL "edge_color676062255" rgb 0.800 0.800 0.800  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.500 0.500 0.500  shi 64 trans 0.000
 MATERIAL "Color_009" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.500 0.500 0.500  shi 64 trans 0.000
 OBJECT world
-name "Blender_exporter_v3.3__Tower1.ac"
+name "Blender_exporter_v3.3__Tower.ac"
 kids 92
 OBJECT poly
 name "group_13"
@@ -4948,7 +4948,7 @@ name "SketchUp"
 data 10
 ID3868.001
 crease 40.0
-texture "__Translucent_Glass_Safety_1.png"
+texture "glassgrey.png"
 numvert 206
 -1.64236 15.41002 -4.23844
 -0.55161 12.93989 -3.01838
@@ -13618,7 +13618,7 @@ name "SketchUp.075"
 data 6
 ID4397
 crease 40.0
-texture "__Translucent_Glass_Safety_1.png"
+texture "glassgrey.png"
 numvert 6
 2.72134 15.40265 -4.23935
 2.50525 15.40265 -4.23935
