@@ -4,6 +4,6 @@ This project covers the VOCL (Calicut International Airport) area and is a conti
 # Credits :- 
 Terrain - Jonthan Redpath (legoboyvdlp)
 
-Models & Textures - Ebrahim Basha (TheRealAce), Atharv Garg (MarkVI2), Manu Bhas (MikeAlphaNovember)
+Models & Textures - Ebrahim Basha (TheRealAce), Atharv Garg (MarkVI2), Manu Bhas (MikeAlphaNovember), Hornet
 
 AI - Atharv Garg (MarkVI2)
