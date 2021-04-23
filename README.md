@@ -9,4 +9,4 @@ Models & Textures - Ebrahim Basha (TheRealAce), Atharv Garg (MarkVI2), Manu Bhas
 AI - Atharv Garg (MarkVI2)
 
 # Installation
-Please reffer to HowToScenery.txt that will be downloaded with the scenery package. 
+Please refer to HowToScenery.txt that will be downloaded with the scenery package.
