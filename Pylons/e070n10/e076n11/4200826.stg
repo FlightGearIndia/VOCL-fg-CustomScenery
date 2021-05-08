@@ -1,0 +1,37 @@
+# pylons_e070n10_e076n11_4200826
+# do not edit below this line
+# Last Written Fri Feb  7 14:02:37 2020
+#
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.37457 11.97979 695.34 179.887
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.37205 11.97980 704.43 179.502
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.36978 11.97983 699.78 189.485
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.36739 11.97898 693.14 199.692
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.36527 11.97824 683.84 213.67
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.36348 11.97629 682.00 228.073
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.36183 11.97447 686.99 228.466
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.36029 11.97274 682.40 228.42
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.35861 11.97090 681.22 200.409
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.35655 11.97116 678.02 172.173
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.35465 11.97143 679.24 173.475
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.35388 11.97150 679.52 175.175
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.37411 11.97160 716.16 206.791
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.37218 11.97064 718.47 206.746
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.37020 11.96966 710.57 206.976
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.36803 11.96856 700.05 207.253
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.36641 11.96773 698.17 207.226
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.36454 11.96679 696.22 193.598
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.36219 11.96679 689.76 180.676
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.35980 11.96673 683.14 180.864
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.35739 11.96672 692.95 166.222
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.35522 11.96785 695.91 152.149
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.35333 11.96883 691.95 152.23
+OBJECT_BUILDING_MESH_DETAILED e070n10_e076n11_4200826cables00041.ac 76.35656 11.96911 686.97 90
+OBJECT_BUILDING_MESH_DETAILED e070n10_e076n11_4200826cables00048.ac 76.36659 11.97328 699.85 90
+# END pylons_e070n10_e076n11_4200826
+# pylons_e070n10_e076n11_4200827
+# do not edit below this line
+# Last Written Fri Feb  7 14:42:25 2020
+#
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.37457 11.97979 695.34 212.385
+OBJECT_SHARED Models/Power/generic_pylon_25m.ac 76.37411 11.97160 716.16 185.782
+# END pylons_e070n10_e076n11_4200827
