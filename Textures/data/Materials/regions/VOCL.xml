@@ -1,0 +1,826 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <name>Eastern India</name>
+  <area>
+    <lon1>72.163968</lon1>
+    <lat1>15.923969</lat1>
+    <lon2>77.692410</lon2>
+    <lat2>7.435227</lat2>
+  </area>
+
+  <condition>
+   <equals>
+    <property>sim/startup/season</property>
+    <value>summer</value>
+   </equals>
+  </condition>
+
+  <material>
+    <name>BuiltUpCover</name>
+    <name>Urban</name>
+      <texture>Terrain/VOCL4.png</texture>
+      <texture>Terrain/VOCL4.png</texture>
+    <xsize>1000</xsize>
+    <ysize>1000</ysize>
+    <light-coverage>100000.0</light-coverage>
+    <emissive>
+      <r>0.05</r>
+      <g>0.05</g>
+      <b>0.02</b>
+      <a>1.0</a>
+    </emissive>
+    <object-group include="Materials/base/urban-buildings.xml"/>
+    <building-coverage>2500.0</building-coverage>
+    <building-small-ratio>0.4</building-small-ratio>
+    <building-small-min-floors>3</building-small-min-floors>
+    <building-small-max-width-m>30.0</building-small-max-width-m>
+    <building-small-min-depth-m>10.0</building-small-min-depth-m>
+    <building-small-max-depth-m>30.0</building-small-max-depth-m>
+    <building-medium-ratio>0.6</building-medium-ratio>
+    <building-large-ratio>0.2</building-large-ratio>
+    <wood-coverage>250000.0</wood-coverage>
+    <tree-texture>Trees/mixed-alt.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-height-m>25.0</tree-height-m>
+    <tree-width-m>15.0</tree-width-m>
+  </material>
+
+  <material>
+    <name>Landmass</name>
+    <name>SomeSort</name>
+    <name>Island</name>
+    <name>Default</name>
+    <effect>Effects/landmass-nowood</effect>
+    <texture>Terrain/VOCL1.png</texture>
+    <texture>Terrain/VOCL2.png</texture>
+    <texture>Terrain/VOCL3.png</texture>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>10000000.0</light-coverage>
+    <wood-coverage>4000.0</wood-coverage>
+    <tree-texture>Trees/coniferous-alt.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-height-m>25.0</tree-height-m>
+    <tree-width-m>15.0</tree-width-m>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>1</bumpiness>
+  </material>
+
+  <material>
+    <name>EvergreenBroadCover</name>
+    <name>EvergreenForest</name>
+    <effect>Effects/forest</effect>
+    <texture>Terrain/VOCL1.png</texture>
+    <texture>Terrain/VOCl3.png</texture>
+    <texture>Terrain/VOCL4.png</texture>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>10000000.0</light-coverage>
+    <wood-coverage>4000.0</wood-coverage>
+    <tree-texture>Trees/coniferous-alt.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-height-m>25.0</tree-height-m>
+    <tree-width-m>18.0</tree-width-m>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>1</bumpiness>
+  </material>
+
+  <material>
+    <name>Grass</name>
+    <name>Airport</name>
+    <name>AirportKeep</name>
+    <name>Greenspace</name>
+    <effect>Effects/airfield</effect>
+ <texture-set>
+   <texture>Terrain/VOCL-airport.png</texture>
+   <texture n="12">Terrain/VOCL-airport.png</texture>
+   <texture n="13">Terrain/VOCL-airport.png</texture>
+   <texture n="14">Terrain/VOCL-airport.png</texture>
+   <texture n="15">Terrain/airport_grass_structure_overlay2.png</texture>
+ </texture-set>
+<parameters>
+ <transition_model>0.5</transition_model>
+     <grit_alpha>0.4</grit_alpha>
+      <use_overlay>1</use_overlay>
+      <overlay_alpha>1.0</overlay_alpha>
+      <use_grain>1</use_grain>
+      <overlay_bias>0.0</overlay_bias>
+      <use_color_overlay>0</use_color_overlay>
+      <base_layer_magnification>1.0</base_layer_magnification>
+      <overlay_layer_magnification>4.0</overlay_layer_magnification>
+      <grain_layer_magnification>60.0</grain_layer_magnification>
+</parameters>
+    <xsize>125</xsize>
+    <ysize>125</ysize>
+    <light-coverage>4000000.0</light-coverage>
+    <diffuse>
+      <r>0.93</r>
+      <g>0.95</g>
+      <b>0.93</b>
+      <a>1.0</a>
+    </diffuse>
+    <specular>
+      <r>0.1</r>
+      <g>0.12</g>
+      <b>0.1</b>
+      <a>1.0</a>
+    </specular>
+    <shininess>1.2</shininess>
+    <solid>1</solid>
+    <friction-factor>0.7</friction-factor>
+    <rolling-friction>0.1</rolling-friction>
+    <bumpiness>0.1</bumpiness>
+    <load-resistance>1e30</load-resistance>
+  </material>
+
+  <material>
+    <effect>Effects/crop</effect>
+    <name>MixedCropPastureCover</name>
+    <name>MixedCrop</name>
+    <name>CropGrassCover</name>
+    <name>CropGrass</name>
+    <texture-set>
+    <texture>Terrain/VOCL1.png</texture>
+    <texture n="12">Terrain/VOCL4.png</texture>
+    </texture-set>
+    <parameters>
+    <transition_model>0.5</transition_model>
+    </parameters>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>2000000.0</light-coverage>
+    <solid>1</solid>
+    <friction-factor>0.9</friction-factor>
+    <rolling-friction>0.1</rolling-friction>
+    <bumpiness>0.7</bumpiness>
+    <load-resistance>1e30</load-resistance>
+    <object-group include="Materials/base/farm-buildings.xml"/>
+    <wood-coverage>4000.0</wood-coverage>
+    <tree-texture>Trees/mixed-alt.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-height-m>20.0</tree-height-m>
+    <tree-width-m>12.0</tree-width-m>
+  </material>
+
+  <material>
+    <name>ShrubCover</name>
+    <name>ShrubGrassCover</name>
+    <name>ScrubCover</name>
+    <name>Scrub</name>
+    <name>Sclerophyllous</name>
+    <texture-set>
+      <texture>Terrain/VOCL2.png</texture>
+      <texture n="12">Terrain/VOCL3.png</texture>
+      <texture n="14">Terrain/grain_texture.png</texture>
+      <texture n="15">Terrain/VOCL2.png</texture>
+    </texture-set>
+    <parameters>
+   <transition_model>0.9</transition_model>
+    </parameters>
+    <object-mask>Terrain/deciduous-hires.png</object-mask>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>2000000.0</light-coverage>
+    <solid>1</solid>
+    <friction-factor>0.9</friction-factor>
+    <rolling-friction>0.1</rolling-friction>
+    <bumpiness>0.7</bumpiness>
+    <load-resistance>1e30</load-resistance>
+  
+    <wood-coverage>10000.0</wood-coverage>
+    <tree-texture>Trees/mixed-alt.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-height-m>20.0</tree-height-m>
+    <tree-width-m>12.0</tree-width-m>    
+  </material>  
+
+<material>
+    <name>grass_rwy</name>
+    <effect>Effects/airfield</effect>
+    <texture>Runway/grass_rwy.png</texture>
+    <xsize>75</xsize>
+    <ysize>75</ysize>
+    <solid>1</solid>
+    <friction-factor>0.8</friction-factor>
+    <rolling-friction>0.05</rolling-friction>
+    <bumpiness>0.05</bumpiness>
+    <load-resistance>1e5</load-resistance>
+  </material>
+
+  <material>
+    <name>dirt_rwy</name>
+    <effect>Effects/dirt-runway</effect>
+    <texture>Runway/dirt_rwy.png</texture>
+    <friction-factor>0.7</friction-factor>
+    <rolling-friction>0.04</rolling-friction>
+    <bumpiness>0.1</bumpiness>
+  </material>
+
+  <material>
+    <name>lakebed_taxiway</name>
+    <texture>Runway/lakebed_taxiway.png</texture>
+    <rolling-friction>0.04</rolling-friction>
+    <bumpiness>0.05</bumpiness>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_taxiway</name>
+    <texture>Runway/df/pa_taxiway.png</texture>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_tiedown</name>
+    <texture>Runway/df/pa_tiedown.png</texture>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_dspl_thresh</name>
+    <texture>Runway/df/pa_dspl_thresh.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_dspl_arrows</name>
+    <texture>Runway/df/pa_dspl_arrows.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_shoulder</name>
+    <texture>Runway/df/pa_shoulder.png</texture>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_shoulder_f</name>
+    <texture>Runway/df/pa_shoulder_f1.png</texture>
+    <parameters>
+     <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_threshold</name>
+    <texture>Runway/df/pa_threshold.png</texture>
+    <wrapu>false</wrapu>
+    <wrapv>false</wrapv>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_no_threshold</name>
+    <texture>Runway/df/pa_no_threshold.png</texture>
+    <wrapu>false</wrapu>
+    <wrapv>false</wrapv>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_stopway</name>
+    <texture>Runway/df/pa_stopway.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_L</name>
+    <texture>Runway/df/pa_L.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_R</name>
+    <texture>Runway/df/pa_R.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_C</name>
+    <texture>Runway/df/pa_C.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_0l</name>
+    <texture>Runway/df/pa_0l.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_0r</name>
+    <texture>Runway/df/pa_0r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_1c</name>
+    <texture>Runway/df/pa_1c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_1l</name>
+    <texture>Runway/df/pa_1l.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_1r</name>
+    <texture>Runway/df/pa_1r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_11</name>
+    <texture>Runway/df/pa_11.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_2c</name>
+    <texture>Runway/df/pa_2c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_2l</name>
+    <texture>Runway/df/pa_2l.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_2r</name>
+    <texture>Runway/df/pa_2r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_3c</name>
+    <texture>Runway/df/pa_3c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_3l</name>
+    <texture>Runway/df/pa_3l.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_3r</name>
+    <texture>Runway/df/pa_3r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_4c</name>
+    <texture>Runway/df/pa_4c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_4r</name>
+    <texture>Runway/df/pa_4r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_5c</name>
+    <texture>Runway/df/pa_5c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_5r</name>
+    <texture>Runway/df/pa_5r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_6c</name>
+    <texture>Runway/df/pa_6c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_6r</name>
+    <texture>Runway/df/pa_6r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_7c</name>
+    <texture>Runway/df/pa_7c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_7r</name>
+    <texture>Runway/df/pa_7r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_8c</name>
+    <texture>Runway/df/pa_8c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_8r</name>
+    <texture>Runway/df/pa_8r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_9c</name>
+    <texture>Runway/df/pa_9c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_9r</name>
+    <texture>Runway/df/pa_9r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_tz_three</name>
+    <texture>Runway/df/pa_tz_three.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_aim</name>
+    <texture>Runway/df/pa_aim.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_aim_uk</name>
+    <texture>Runway/df/pa_aim_uk.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_tz_two_a</name>
+    <texture>Runway/df/pa_tz_two_a.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_tz_two_b</name>
+    <texture>Runway/df/pa_tz_two_b.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_tz_one_a</name>
+    <texture>Runway/df/pa_tz_one_a.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_tz_one_b</name>
+    <texture>Runway/df/pa_tz_one_b.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_centerline</name>
+    <texture>Runway/df/pa_centerline.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_rest</name>
+    <texture>Runway/df/pa_rest.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_heli</name>
+    <texture>Runway/df/pa_helipad.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_taxiway</name>
+    <name>dirt_rwytaxiway</name>
+    <texture>Runway/df/pc_taxiway.png</texture>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_tiedown</name>
+    <name>dirt_rwytiedown</name>
+    <texture>Runway/df/pc_tiedown.png</texture>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_dspl_thresh</name>
+    <texture>Runway/df/pc_dspl_thresh.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_dspl_arrows</name>
+    <texture>Runway/df/pc_dspl_arrows.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_shoulder</name>
+    <texture>Runway/df/pc_shoulder.png</texture>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_shoulder_f</name>
+    <texture>Runway/df/pc_shoulder_f.png</texture>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_threshold</name>
+    <name>dirt_rwythreshold</name>
+    <texture>Runway/df/pc_threshold.png</texture>
+    <wrapu>false</wrapu>
+    <wrapv>false</wrapv>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_no_threshold</name>
+    <texture>Runway/df/pc_no_threshold.png</texture>
+    <wrapu>false</wrapu>
+    <wrapv>false</wrapv>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_stopway</name>
+    <texture>Runway/df/pc_stopway.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_L</name>
+    <name>dirt_rwyL</name>
+    <texture>Runway/df/pc_L.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_R</name>
+    <name>dirt_rwyR</name>
+    <texture>Runway/df/pc_R.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_C</name>
+    <name>dirt_rwyC</name>
+    <texture>Runway/df/pc_C.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_0l</name>
+    <name>dirt_rwy0l</name>
+    <texture>Runway/df/pc_0l.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_0r</name>
+    <name>dirt_rwy0r</name>
+    <texture>Runway/df/pc_0r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_1c</name>
+    <name>dirt_rwy1c</name>
+    <texture>Runway/df/pc_1c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_1l</name>
+    <name>dirt_rwy1l</name>
+    <texture>Runway/df/pc_1l.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_1r</name>
+    <name>dirt_rwy1r</name>
+    <texture>Runway/df/pc_1r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_11</name>
+    <name>dirt_rwy11</name>
+    <texture>Runway/df/pc_11.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_2c</name>
+    <name>dirt_rwy2c</name>
+    <texture>Runway/df/pc_2c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_2l</name>
+    <name>dirt_rwy2l</name>
+    <texture>Runway/df/pc_2l.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_2r</name>
+    <name>dirt_rwy2r</name>
+    <texture>Runway/df/pc_2r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_3c</name>
+    <name>dirt_rwy3c</name>
+    <texture>Runway/df/pc_3c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_3l</name>
+    <name>dirt_rwy3l</name>
+    <texture>Runway/df/pc_3l.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_3r</name>
+    <name>dirt_rwy3r</name>
+    <texture>Runway/df/pc_3r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_4c</name>
+    <name>dirt_rwy4c</name>
+    <texture>Runway/df/pc_4c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_4r</name>
+    <name>dirt_rwy4r</name>
+    <texture>Runway/df/pc_4r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_5c</name>
+    <name>dirt_rwy5c</name>
+    <texture>Runway/df/pc_5c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_5r</name>
+    <name>dirt_rwy5r</name>
+    <texture>Runway/df/pc_5r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_6c</name>
+    <name>dirt_rwy6c</name>
+    <texture>Runway/df/pc_6c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_6r</name>
+    <name>dirt_rwy6r</name>
+    <texture>Runway/df/pc_6r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_7c</name>
+    <name>dirt_rwy7c</name>
+    <texture>Runway/df/pc_7c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_7r</name>
+    <name>dirt_rwy7r</name>
+    <texture>Runway/df/pc_7r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_8c</name>
+    <name>dirt_rwy8c</name>
+    <texture>Runway/df/pc_8c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_8r</name>
+    <name>dirt_rwy8r</name>
+    <texture>Runway/df/pc_8r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_9c</name>
+    <name>dirt_rwy9c</name>
+    <texture>Runway/df/pc_9c.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_9r</name>
+    <name>dirt_rwy9r</name>
+    <texture>Runway/df/pc_9r.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_tz_three</name>
+    <name>dirt_rwytz_three</name>
+    <texture>Runway/df/pc_tz_three.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_aim</name>
+    <name>dirt_rwyaim</name>
+    <texture>Runway/df/pc_aim.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_aim_uk</name>
+    <name>dirt_rwyaim_uk</name>
+    <texture>Runway/df/pc_aim_uk.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_tz_two_a</name>
+    <name>dirt_rwytz_two_a</name>
+    <texture>Runway/df/pc_tz_two_a.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_tz_two_b</name>
+    <name>dirt_rwytz_two_b</name>
+    <texture>Runway/df/pc_tz_two_b.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_tz_one_a</name>
+    <name>dirt_rwytz_one_a</name>
+    <texture>Runway/df/pc_tz_one_a.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_tz_one_b</name>
+    <name>dirt_rwytz_one_b</name>
+    <texture>Runway/df/pc_tz_one_b.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_centerline</name>
+    <name>dirt_rwycenterline</name>
+    <texture>Runway/df/pc_centerline.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_rest</name>
+    <name>dirt_rwyrest</name>
+    <texture>Runway/df/pc_rest.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_heli</name>
+    <texture>Runway/df/pc_helipad.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+
+  <material include="Materials/base/rock.xml">
+    <name>BarrenCover</name>
+    <name>Dirt</name>
+    <name>OpenMining</name>
+    <name>Rock</name>
+    <name>Dump</name>
+    <texture>Terrain/rock.png</texture>
+  </material>
+
+
+</PropertyList>
