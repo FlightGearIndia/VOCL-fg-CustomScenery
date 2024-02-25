@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <groundnet>
   <version>1</version>
-  <fgaversion>Mon, 21 Dec 2020 06:46:30 GMT by FlightgearAirports 0.0.26</fgaversion>
-  <name>Atharv Garg</name>
+
+
   <frequencies>
     <APPROACH>11915</APPROACH>
     <APPROACH>12295</APPROACH>
@@ -11,20 +11,21 @@
     <TOWER>12335</TOWER>
   </frequencies>
   <parkingList>
-    <Parking index="1" type="gate" name="1" lat="N11 8.396" lon="E75 56.928" heading="10.5" radius="18"  pushBackRoute="15"/>
-    <Parking index="2" type="gate" name="2" lat="N11 8.391" lon="E75 56.949" heading="10.5" radius="18"/>
-    <Parking index="3" type="gate" name="3" lat="N11 8.388" lon="E75 56.974" heading="10.5" radius="18" />
-    <Parking index="4" type="gate" name="4" lat="N11 8.384" lon="E75 56.995" heading="10.5" radius="18" />
-    <Parking index="5" type="gate" name="5" lat="N11 8.381" lon="E75 57.014" heading="10.5" radius="18" pushBackRoute="23"/>
-    <Parking index="6" type="gate" name="5A" lat="N11 8.377" lon="E75 57.03" heading="10.5" radius="18" pushBackRoute="24"/>
-    <Parking index="7" type="gate" name="6" lat="N11 8.373" lon="E75 57.051" heading="11.0" radius="18" pushBackRoute="25"/>
-    <Parking index="8" type="gate" name="7" lat="N11 8.369" lon="E75 57.072" heading="12.6" radius="18" pushBackRoute="26"/>
-    <Parking index="9" type="gate" name="8" lat="N11 8.364" lon="E75 57.093" heading="13.4" radius="18" pushBackRoute="27"/>
-    <Parking index="10" type="gate" name="9" lat="N11 8.36" lon="E75 57.113" heading="12.1" radius="18" pushBackRoute="28"/>
-    <Parking index="11" type="gate" name="10" lat="N11 8.356" lon="E75 57.134" heading="10.5" radius="18" />
-    <Parking index="12" type="gate" name="11" lat="N11 8.353" lon="E75 57.152" heading="10.3" radius="14" pushBackRoute="30"/>
-    <Parking index="13" type="gate" name="12" lat="N11 8.35" lon="E75 57.168" heading="10.5" radius="14" pushBackRoute="31"/>
-    <Parking index="14" type="gate" name="13" lat="N11 8.348" lon="E75 57.185" heading="10.5" radius="14" pushBackRoute="32"/>
+    <Parking index="1" type="gate" name="1" lat="N11 8.35141 " lon="E75 56.93086" heading="10.5" radius="18"  pushBackRoute="15"/>
+    <Parking index="2" type="gate" name="2" lat="N11 8.3
+4725" lon="E75 56.95288" heading="10.5" radius="18"/>
+    <Parking index="3" type="gate" name="3" lat="N11 8.3482" lon="E75 56.9759" heading="10.5" radius="18" />
+    <Parking index="4" type="gate" name="4" lat="N11 8.34455" lon="E75 57.00201" heading="10.5" radius="18" />
+    <Parking index="5" type="gate" name="5" lat="N11 8.33916" lon="E75 57.03028" heading="10.5" radius="18" pushBackRoute="23"/>
+    <Parking index="6" type="gate" name="5A" lat="N11 8.34138" lon="E75 57.03321" heading="40.5" radius="44" pushBackRoute="24"/>
+    <Parking index="7" type="gate" name="6" lat="N11 8.336499" lon="E75 57.05497" heading="10.5" radius="18" pushBackRoute="25"/>
+    <Parking index="8" type="gate" name="7" lat="N11 8.32901" lon="E75 57.07663" heading="10.5" radius="18" pushBackRoute="26"/>
+    <Parking index="9" type="gate" name="8" lat="N11 8.32537" lon="E75 57.10267" heading="10.5" radius="18" pushBackRoute="27"/>
+    <Parking index="10" type="gate" name="9" lat="N11 8.32766" lon="E75 57.10535" heading="40.5" radius="18" pushBackRoute="28"/>
+    <Parking index="11" type="gate" name="10" lat="N11 8.32589" lon="E75 57.13431" heading="10.5" radius="18" />
+    <Parking index="12" type="gate" name="11" lat="N11 8.31076" lon="E75 57.17769" heading="10.3" radius="14" pushBackRoute="30"/>
+    <Parking index="13" type="gate" name="12" lat="N11 8.30908" lon="E75 57.18315" heading="10.5" radius="14" pushBackRoute="31"/>
+    <Parking index="14" type="gate" name="13" lat="N11 8.16678" lon="E75 57.20502" heading="10.5" radius="14" pushBackRoute="32"/>
   </parkingList>
   <TaxiNodes>
     <node index="15" lat="N11 8.365" lon="E75 56.923" isOnRunway="0" holdPointType="PushBack"/>
